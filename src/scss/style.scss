@@ -102,7 +102,12 @@ img {
   }
 
   @include bp(768px) {
-    background-image: url("../img/desktop/image-hero.jpg");
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("../img/desktop/image-hero.jpg");
 
     &__nav {
       padding: {
@@ -125,6 +130,7 @@ img {
   @include bp(1440px) {
     &__title {
       font-size: 72px;
+      line-height: 0.97;
     }
 
     &__content {

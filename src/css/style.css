@@ -70,7 +70,7 @@ img {
       font-size: 40px; } }
   @media screen and (min-width: 768px) {
     .header {
-      background-image: url("../img/desktop/image-hero.jpg"); }
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/desktop/image-hero.jpg"); }
       .header__nav {
         padding-top: 60px;
         padding-bottom: 60px; }
@@ -82,7 +82,8 @@ img {
         font-size: 56px; } }
   @media screen and (min-width: 1440px) {
     .header__title {
-      font-size: 72px; }
+      font-size: 72px;
+      line-height: 0.97; }
     .header__content {
       max-width: 650px; } }
 
