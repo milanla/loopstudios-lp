@@ -1,0 +1,14 @@
+{
+  "name": "loopstudios",
+  "version": "1.0.0",
+  "description": "Loopstudios Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/scss/ -o src/css/ --recursive"
+  },
+  "author": "Milan Sacher",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
