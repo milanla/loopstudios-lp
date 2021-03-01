@@ -363,6 +363,13 @@ img {
   display: block;
   max-width: 160px;
   margin: 0 auto;
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+  }
 }
 
 .cards-wrapper {
